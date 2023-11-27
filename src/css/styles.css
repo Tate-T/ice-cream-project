@@ -1,10 +1,3 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-
 @import url("./reset.css");
 @import url("./header.css");
 @import url("./hero.css");
@@ -15,4 +8,13 @@
 @import url("./footer.css");
 
 :root {
+  --additional: #fcfcfc;
+  --text: #131313;
+  --main-bg: #84a178;
+  --accent: #f8d24e;
+  --bg-card-1: #aec6a5;
+  --bg-card-2: #efd478;
+  --bg-card-3: #d6936d;
+  --time-text: #ababab;
+  --footer-copyright: #7a7a7a;
 }
