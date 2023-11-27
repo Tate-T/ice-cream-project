@@ -1,0 +1,41 @@
+.reviews {
+  background-image: url(../img/bg-ice-cream.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reviews-img {
+}
+
+.reviews-icon {
+  border-radius: 50%;
+}
+
+.reviews-desc {
+  color: var(--additional);
+  background-color: var(--main-bg);
+  border-radius: 24px;
+}
+
+.reviews-info {
+  color: var(--text);
+}
+
+.reviews-dots {
+}
+
+.reviews-dot {
+  background-color: #d9d9d9;
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.reviews-dot:hover {
+  background-color: var(--main-bg);
+}
+
+.reviews-dot:first-child {
+  background-color: var(--main-bg);
+}
