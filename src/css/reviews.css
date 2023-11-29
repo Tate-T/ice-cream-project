@@ -15,10 +15,18 @@
   color: var(--additional);
   background-color: var(--main-bg);
   border-radius: 24px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.86;
+  letter-spacing: 0.64px;
 }
 
 .reviews-info {
   color: var(--text);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.86;
 }
 
 .reviews-dots {
