@@ -2,13 +2,24 @@
   background-image: url(../img/bg-ice-cream.webp);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 464px;
+  padding-bottom: 228px;
+  background-color: var(--additional);
+}
+
+.reviews-container {
+  position: relative;
 }
 
 .reviews-img {
+  position: absolute;
+  bottom: 501px;
+  left: 93px;
 }
 
 .reviews-icon {
   border-radius: 50%;
+  margin: 0 auto;
 }
 
 .reviews-desc {
@@ -20,6 +31,11 @@
   font-weight: 500;
   line-height: 1.86;
   letter-spacing: 0.64px;
+  margin: 32px auto;
+  text-align: center;
+  padding: 43px 74px;
+  width: 750px;
+  box-sizing: content-box;
 }
 
 .reviews-info {
@@ -27,9 +43,14 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 1.86;
+  text-align: center;
 }
 
 .reviews-dots {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  margin-top: 32px;
 }
 
 .reviews-dot {
