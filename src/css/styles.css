@@ -1,3 +1,12 @@
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./hero.css");
+@import url("./product.css");
+@import url("./made.css");
+@import url("./reviews.css");
+@import url("./locations.css");
+@import url("./footer.css");
+
 :root {
   --additional: #fcfcfc;
   --text: #131313;
@@ -16,12 +25,3 @@
   margin: 0 auto;
   outline: red 3px dashed;
 }
-
-@import url("./reset.css");
-@import url("./header.css");
-@import url("./hero.css");
-@import url("./product.css");
-@import url("./made.css");
-@import url("./reviews.css");
-@import url("./locations.css");
-@import url("./footer.css");
