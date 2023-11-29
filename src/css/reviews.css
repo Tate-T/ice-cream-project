@@ -24,6 +24,7 @@
 
 .reviews-info {
   color: var(--text);
+  font-family: Montserrat;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.86;
