@@ -1,18 +1,11 @@
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-    margin-left: auto;
-    margin-right: auto;
-    outline: solid red;
-}
+
 
 .location-list {
-    display: flex;
+  display: flex;
 }
 
 .location-title {
-    color: #131313;
+    color: var(--text);
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -24,7 +17,7 @@
 }
 
 .sub-title {
-    color: #131313;
+    color: var(--text);
     font-size: 16px;
     font-weight: 500;
     line-height: 186%;
@@ -32,7 +25,7 @@
 }
 
 .location-addres {
-    color: #D6936D;
+    color: var(--bg-card-3);
     font-size: 16px;
     font-weight: 500;
     line-height: 183%;
@@ -40,7 +33,7 @@
 }
 
 .location-time {
-    color: #131313;
+    color: var(--text);
     font-size: 16px;
     font-weight: 500;
     line-height: 186%;
@@ -48,7 +41,7 @@
 }
 
 .location-text {
-    color: #ABABAB;
+    color: var(--time-text);
     font-size: 16px;
     font-weight: 500;
     line-height: 186%;
@@ -56,19 +49,19 @@
 }
 
 .location-number {
-    color: #131313;
+    color: var(--text);
     font-size: 16px;
     font-weight: 500;
     line-height: 150%;
 }
 
 .location-email {
-    color: #131313;
+    color: var(--text);
     font-size: 16px;
     font-weight: 500;
     line-height: 150%;
 }
 
 .location {
-    background-color: #84A178;
+  background-color: var(--main-bg);
 }

@@ -1,15 +1,16 @@
 .made {
   background-color: var(--main-bg);
+  padding: 60px 0 178px;
 }
 
 .made-subtitle {
   color: var(--additional);
   text-align: center;
-  font-family: Montserrat;
   font-size: 30px;
   font-weight: 800;
   letter-spacing: 1.2px;
   text-transform: uppercase;
+  margin-bottom: 12px;
 }
 
 .made-title {
@@ -20,20 +21,33 @@
   font-weight: 400;
   letter-spacing: 2.16px;
   text-transform: uppercase;
+  margin-bottom: 82px;
+}
+
+.made-article {
+  display: flex;
+  gap: 109px;
+  align-items: center;
+  margin-bottom: 60px;
 }
 
 .made-paragraph {
   color: var(--additional);
-  font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.76;
   letter-spacing: 0.64px;
+  width: 463px;
+  margin-bottom: 8px;
+}
+
+.made-paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .made-btn {
+  margin-top: 54px;
   color: #000;
-  font-family: Montserrat;
   font-size: 14px;
   font-weight: 600;
   line-height: 1.28;
@@ -65,17 +79,16 @@
 .made-subheading {
   color: var(--additional);
   text-align: center;
-  font-family: Montserrat;
   font-size: 58px;
   font-weight: 700;
   letter-spacing: 2.32px;
   margin-top: 47px;
+  margin-bottom: 12px;
 }
 
 .made-info {
   color: var(--additional);
   text-align: center;
-  font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.76;
