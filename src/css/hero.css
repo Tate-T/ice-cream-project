@@ -1,20 +1,15 @@
 .hero {
     background-color: #84A178;
-    border: dashed darkblue;
-    background-image: url(./image/dots.png);
+    background-image: url(../img/dots.png);
     background-size:auto;
     background-repeat: no-repeat;
     background-position: center bottom;
     font-family: Montserrat;
 }
 
-.hero::before {
-    background-image: url(./image/dots.png);
-    background-size: cover;
-}
 
 
-.hero-text {
+.hero-title {
     color: #FCFCFC;
     font-family: Seymour One;
     font-size: 38px;
@@ -24,14 +19,14 @@
     text-transform: uppercase;
     margin-bottom: 28px;
     margin-top: 45px;
+    margin-right: 269px;
 }
 
 .hero-img {
     display: flex;
     width: 225px;
     height: 225px;
-    flex-direction: row;
-    margin-right: 16px;
+    /* flex-direction: row; */
 }
 
 .hero-btn-product{
@@ -48,7 +43,7 @@
     padding-top: 12px;
     padding-bottom: 12px;
     margin-right: 12px;
-    margin-bottom: 42px;
+    /* margin-bottom: 42px; */
 }
 
 .hero-btn-product:hover {
@@ -94,8 +89,9 @@
     text-decoration-line: underline;
     padding-top: 12px;
     padding-bottom: 11px;
-    margin-right: 21px;
-    margin-left: 22px;
+    padding-right: 21px;
+    padding-left: 22px;
+    /* margin-bottom: 111px; */
 }
 
 .hero-link:hover {
@@ -107,8 +103,8 @@
     text-decoration-line: underline;
     padding-top: 12px;
     padding-bottom: 11px;
-    margin-right: 21px;
-    margin-left: 22px;
+    padding-right: 21px;
+    padding-left: 22px;
 }
 
 .hero-link:focus {
@@ -124,16 +120,17 @@
     padding-left: 22px;
 }
 
-.hero-text1 {
+.hero-text {
     display: flex;
     color: #FFF;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.4;  
-     max-width: 200px;
+    width: 215px;
     margin-right: 195px;
-    /* align-items: center; */
-
+    padding-top: 111px;
+    padding-bottom: 24px;
+    padding-left: 16px;
 }
 
 .hero-img-ice{
@@ -143,7 +140,7 @@
     margin-top: 31px;
 }
 
-.hero-namber{
+.hero-sub-title{
     /* display: flex;
     justify-content: end; */
     margin-left: auto;
@@ -157,7 +154,7 @@
 
 
 
-.hero-text2 {
+.sub-title-text {
     /* display: flex;
     justify-content: end; */
     color: #FCFCFC;
@@ -174,28 +171,39 @@
     align-items: center;
 } */
 
-.tarelka {
+.hero-tarelka {
     display: flex;
     align-items: center;
+    /* flex-direction: column; */
 }
 
 
-.big-ice {
+/* .big-ice {
     display: flex;
     flex-direction: column;
     align-items: end;
-}
+} */
 
 .hero-div {
     display: flex;
 }
 
-.hero-div::before {
+/* .hero-div::before {
     container: "";
-    background-image: url(./image/dots.png);
+    background-image: url(../img/dots.png);
     background-size: cover;
+} */
+
+.hero-list:nth-child(1) {
+    margin-top: 53px;
 }
 
-.list-namber:nth-child(1) {
-    padding-top: 53px;
+
+.hero-tarelka {
+    display: flex;
+    align-items: center;
+}
+
+.hero-img-strelka {
+    padding-left: 16px;
 }

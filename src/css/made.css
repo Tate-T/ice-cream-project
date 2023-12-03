@@ -5,7 +5,6 @@
 .made-subtitle {
   color: var(--additional);
   text-align: center;
-  font-family: Montserrat;
   font-size: 30px;
   font-weight: 800;
   letter-spacing: 1.2px;
@@ -24,7 +23,6 @@
 
 .made-paragraph {
   color: var(--additional);
-  font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.76;
@@ -33,7 +31,6 @@
 
 .made-btn {
   color: #000;
-  font-family: Montserrat;
   font-size: 14px;
   font-weight: 600;
   line-height: 1.28;
@@ -65,7 +62,6 @@
 .made-subheading {
   color: var(--additional);
   text-align: center;
-  font-family: Montserrat;
   font-size: 58px;
   font-weight: 700;
   letter-spacing: 2.32px;
@@ -75,7 +71,6 @@
 .made-info {
   color: var(--additional);
   text-align: center;
-  font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.76;
