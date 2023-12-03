@@ -1,0 +1,84 @@
+.made {
+  background-color: var(--main-bg);
+}
+
+.made-subtitle {
+  color: var(--additional);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.made-title {
+  color: var(--additional);
+  text-align: center;
+  font-family: Seymour One;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 2.16px;
+  text-transform: uppercase;
+}
+
+.made-paragraph {
+  color: var(--additional);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.76;
+  letter-spacing: 0.64px;
+}
+
+.made-btn {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.28;
+  border-radius: 10px;
+  background: var(--accent);
+  border: none;
+  padding: 12px 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.made-list {
+  display: flex;
+}
+
+.made-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: var(--accent);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.made-subheading {
+  color: var(--additional);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 58px;
+  font-weight: 700;
+  letter-spacing: 2.32px;
+  margin-top: 47px;
+}
+
+.made-info {
+  color: var(--additional);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.76;
+  letter-spacing: 0.32px;
+  max-width: 368px;
+}
