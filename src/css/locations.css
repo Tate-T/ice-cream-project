@@ -12,11 +12,9 @@
 .location-title {
     color: #131313;
 text-align: center;
-font-family: Montserrat;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
-line-height: 140%; /* 22.4px */
+line-height: 140%; 
 letter-spacing: 0.64px;
 width: 48px;
 border-radius: 6px;
@@ -24,59 +22,44 @@ background: #F8D24E;
 }
 .sub-title {
     color: #131313;
-font-family: Montserrat;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
-line-height: 186%; /* 29.76px */
+line-height: 186%; 
 letter-spacing: 0.64px;
 }
 .location-addres {
     color: #D6936D;
-font-family: Montserrat;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
-line-height: 183%; /* 29.28px */
+line-height: 183%; 
 letter-spacing: 0.64px;
 }
 .location-time {
     color: #131313;
-font-family: Montserrat;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
-line-height: 186%; /* 29.76px */
+line-height: 186%; 
 letter-spacing: 0.64px;
 }
 .location-text {
     color: #ABABAB;
-font-family: Montserrat;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
-line-height: 186%; /* 29.76px */
+line-height: 186%; 
 width: 167.695px;
 }
 .location-number {
     color: #131313;
-font-family: Montserrat;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
-line-height: 150%; /* 24px */
+line-height: 150%; 
 }
 .location-email {
     color: #131313;
-font-family: Montserrat;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
-line-height: 150%; /* 24px */
+line-height: 150%; 
 }
 .location {
     background-color: #84A178;
-}
-.container {
-background-color: #84A178;
 }
