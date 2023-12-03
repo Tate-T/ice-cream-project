@@ -1,13 +1,13 @@
 .container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-    margin-left: auto;
-    margin-right: auto; 
-    outline: solid red;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: solid red;
 }
 .location-list {
-    display: flex;
+  display: flex;
 }
 .location-title {
     color: #131313;
@@ -61,5 +61,5 @@ font-weight: 500;
 line-height: 150%; 
 }
 .location {
-    background-color: #84A178;
+  background-color: #84a178;
 }
