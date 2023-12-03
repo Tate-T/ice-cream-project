@@ -1,25 +1,18 @@
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-  margin-left: auto;
-  margin-right: auto;
-  outline: solid red;
-}
 .location-cards {
   display: flex;
   background-color: var(--additional);
 }
+
 .location-title {
-    color: #131313;
-text-align: center;
-font-size: 16px;
-font-weight: 500;
-line-height: 140%; 
-letter-spacing: 0.64px;
-width: 48px;
-border-radius: 6px;
-background: #F8D24E;
+    color: var(--text);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.64px;
+    width: 48px;
+    border-radius: 6px;
+    background: #F8D24E;
 }
 .location-subtitle {
     color: #131313;
@@ -27,40 +20,47 @@ font-size: 16px;
 font-weight: 500;
 line-height: 186%; 
 letter-spacing: 0.64px;
+
 }
+
 .location-addres {
-    color: #D6936D;
-font-size: 16px;
-font-weight: 500;
-line-height: 183%; 
-letter-spacing: 0.64px;
+    color: var(--bg-card-3);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 183%;
+    letter-spacing: 0.64px;
 }
+
 .location-time {
-    color: #131313;
-font-size: 16px;
-font-weight: 500;
-line-height: 186%; 
-letter-spacing: 0.64px;
+    color: var(--text);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 186%;
+    letter-spacing: 0.64px;
 }
+
 .location-text {
-    color: #ABABAB;
-font-size: 16px;
-font-weight: 500;
-line-height: 186%; 
-width: 167.695px;
+    color: var(--time-text);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 186%;
+    width: 167.695px;
 }
+
 .location-number {
-    color: #131313;
-font-size: 16px;
-font-weight: 500;
-line-height: 150%; 
+    color: var(--text);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
 }
+
 .location-email {
-    color: #131313;
-font-size: 16px;
-font-weight: 500;
-line-height: 150%; 
+    color: var(--text);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
 }
+
 .location {
-  background-color: #84a178;
+  background-color: var(--main-bg);
 }
