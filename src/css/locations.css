@@ -1,7 +1,6 @@
-
-
-.location-list {
+.location-cards {
   display: flex;
+  background-color: var(--additional);
 }
 
 .location-title {
@@ -15,13 +14,13 @@
     border-radius: 6px;
     background: #F8D24E;
 }
+.location-subtitle {
+    color: #131313;
+font-size: 16px;
+font-weight: 500;
+line-height: 186%; 
+letter-spacing: 0.64px;
 
-.sub-title {
-    color: var(--text);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 186%;
-    letter-spacing: 0.64px;
 }
 
 .location-addres {
