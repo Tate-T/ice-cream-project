@@ -107,7 +107,11 @@
     position: absolute;  
     top: -170px;
     right: 34px;
+    box-shadow: 0px 8px 30px 0px rgba(153, 114, 23, 0.25);
+    border-radius: 302px;
+    background: rgb(225,171,96);
+    background: linear-gradient(183deg, rgba(225,171,96,1) 0%, rgba(156,190,143,0.01) 100%);  
 }
 
-/*article*/
+
 
