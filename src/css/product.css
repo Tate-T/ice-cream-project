@@ -57,10 +57,9 @@
     width: 242px;
     height: 130px;
     flex-shrink: 0;
-    margin-left: 64px;
-    margin-right: 64px;
     margin-top: 66px;
-    margin-bottom: 126px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .products-list {
@@ -109,3 +108,6 @@
     top: -170px;
     right: 34px;
 }
+
+/*article*/
+
