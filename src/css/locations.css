@@ -9,6 +9,8 @@
 .location-cards {
   display: flex;
   background-color: var(--additional);
+  gap: 40px;
+  display: block;
 }
 .location-title {
     color: #131313;
@@ -63,4 +65,7 @@ line-height: 150%;
 }
 .location {
   background-color: #84a178;
+}
+.location-card {
+    padding-left: 40px;
 }
