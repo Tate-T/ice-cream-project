@@ -1,5 +1,5 @@
 .hero {
-    background-color: #84A178;
+    background-color: var(--main-bg) ;
     background-image: url(../img/dots.png);
     background-size:auto;
     background-repeat: no-repeat;
@@ -10,7 +10,7 @@
 
 
 .hero-title {
-    color: #FCFCFC;
+    color: var(--additional);
     font-family: Seymour One;
     font-size: 38px;
     font-weight: 400;
@@ -26,14 +26,19 @@
     display: flex;
     width: 225px;
     height: 225px;
+    /* margin-right: 16px; */
     /* flex-direction: row; */
 }
 
+.wraper {
+    outline: solid black;
+}
+
 .hero-btn-product{
-    color: #131313;
-    background-color: #84A178;
+    color: var(--text);
+    background-color: var(--main-bg);
     text-align: center;
-    border: solid #F8D24E;
+    border: solid var(--accent);
     font-size: 14px;
     font-weight: 600;
     line-height: 18px; 
@@ -43,12 +48,12 @@
     padding-top: 12px;
     padding-bottom: 12px;
     margin-right: 12px;
-    /* margin-bottom: 42px; */
+    margin-bottom: 42px;
 }
 
 .hero-btn-product:hover {
-    color: #131313;
-    background-color: #84A178;
+    color:var(--text);
+    background-color: var(--main-bg);
     text-align: center;
     border: solid  #0A8817;
     font-size: 14px;
@@ -65,7 +70,7 @@
 
 .hero-btn-product:focus {
     color:  #fff;
-    background-color: #84A178;
+    background-color:var(--main-bg);
     text-align: center;
     border: solid  #0A8817;
     font-size: 14px;
@@ -81,7 +86,7 @@
 }
 
 .hero-link {
-    color: #F8D24E;
+    color: var(--bg-card-2);
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -91,7 +96,7 @@
     padding-bottom: 11px;
     padding-right: 21px;
     padding-left: 22px;
-    /* margin-bottom: 111px; */
+    margin-bottom: 111px;
 }
 
 .hero-link:hover {
@@ -126,11 +131,11 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 1.4;  
-    width: 215px;
-    margin-right: 195px;
-    padding-top: 111px;
+    max-width: 203px;
+    /* margin-right: 195px; */
+    margin-left: 16px;
     padding-bottom: 24px;
-    padding-left: 16px;
+    margin-top: 67px;
 }
 
 .hero-img-ice{
@@ -144,7 +149,7 @@
     /* display: flex;
     justify-content: end; */
     margin-left: auto;
-    color: #131313;
+    color:var(--text);
     text-align: right;
     font-size: 46px;
     font-weight: 900;
@@ -157,7 +162,7 @@
 .sub-title-text {
     /* display: flex;
     justify-content: end; */
-    color: #FCFCFC;
+    color: var(--additional);
     font-size: 14px;
     font-weight: 400;
     padding-bottom: 16px;
@@ -171,10 +176,10 @@
     align-items: center;
 } */
 
-.hero-tarelka {
+.hero-dish {
     display: flex;
     align-items: center;
-    /* flex-direction: column; */
+    outline: dashed darkmagenta;
 }
 
 
@@ -184,8 +189,12 @@
     align-items: end;
 } */
 
-.hero-div {
+.hero-main {
     display: flex;
+    background-image: url(../img/dots.png);
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
 }
 
 /* .hero-div::before {
@@ -199,11 +208,19 @@
 }
 
 
-.hero-tarelka {
+.hero-dish {
     display: flex;
     align-items: center;
 }
 
+
+.big-ice {
+    outline: dashed deeppink;
+}
+
 .hero-img-strelka {
-    padding-left: 16px;
+    width: 40px;
+    height: 16px;
+    flex-shrink: 0;
+    margin-left: 16px;
 }
