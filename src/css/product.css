@@ -6,7 +6,7 @@
 
 /*title*/
 .products-title {
-    color: #131313;
+    color: var(--text);
     text-align: center;
     font-size: 30px;
     font-weight: 800;
@@ -18,7 +18,7 @@
 }
 
 .products-tittle {
-    color: #131313;
+    color: var(--text);
     text-align: center;
     font-family: Seymour One;
     font-size: 36px;
@@ -36,7 +36,7 @@
 /*products-text and tittle*/
 
 .products-main-title {
-    color: #131313;
+    color: var(--text);
     text-align: center;
     font-size: 30px;
     font-style: normal;
@@ -47,7 +47,7 @@
 }
 
 .products-maim-text {
-    color: #131313;
+    color: var(--text);
     text-align: center;
     font-size: 16px;
     font-style: normal;
@@ -74,7 +74,7 @@
     height: 536px;
     flex-shrink: 0;
     border-radius: 24px;
-    background: #AEC6A5;
+    background: var(--bg-card-1);
     box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.10);
     padding-top: 165px;
     position: relative;
@@ -82,12 +82,12 @@
 
 .products-item:nth-child(2) {
     border-radius: 24px;
-    background: #EFD478;
+    background: var(--bg-card-2);
 }
 
 .products-item:nth-child(3) {
     border-radius: 24px;
-    background: #D6936D;
+    background: var(--bg-card-3);
 }
 
 .products-item::after {
@@ -107,12 +107,22 @@
     position: absolute;  
     top: -170px;
     right: 34px;
-    box-shadow: 0px 8px 30px 0px rgba(153, 114, 23, 0.25);
+    box-shadow: 0px 16px 0px 0px  var(--bg-card-1), 0px 8px 30px 0px rgba(10, 136, 23, 0.25);
     border-radius: 302px;
     background: rgb(225,171,96);
     background: linear-gradient(183deg, rgba(225,171,96,1) 0%, rgba(156,190,143,0.01) 100%);  
 }
 
+.products-item:nth-child(2) .products-photo {
+    box-shadow: 0px 16px 0px 0px var(--bg-card-2), 0px 8px 30px 0px rgba(153, 114, 23, 0.25);
+}
+
+.products-item:nth-child(3) .products-photo {
+    box-shadow: 0px 16px 0px 0px var(--bg-card-3), 0px 8px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+/*icons*/
 
 .products-icons {
     display: block;
