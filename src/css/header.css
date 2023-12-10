@@ -1,29 +1,64 @@
 .header-section {
+<<<<<<< Updated upstream
+    background-color: var(--main-bg);
+=======
     width: 1168px;
     height: 65px;
     background-color: #84A178;
+    display: flex;
+>>>>>>> Stashed changes
 }
 
 .header-button {
     background-color:
-     #F8D24E;
+     var(--accent);
     border: none;
     color: #000;
 text-align: center;
-font-family: Montserrat;
 font-size: 14px;
-font-style: normal;
 font-weight: 600;
+<<<<<<< Updated upstream
+padding: 12px 36px;
+border-radius: 10px;
+height: 42px;
+display: flex;
+gap: 4px;
+  }
+=======
 line-height: normal;
-
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 36px;
+padding-right: 51px;
 }
+>>>>>>> Stashed changes
 
 .header-roster {
     color: #FCFCFC;
-    font-family: Montserrat;
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+}
+<<<<<<< Updated upstream
+
+.header-roster:hover {
+    color: #F8D24E;
+
 }
 
+.header-list {
+    display: flex;
+    gap: 27px;
+    margin-right: 205px;
+}
+
+.header-container {
+    display: flex;
+}
+
+.header-logo {
+    margin-right: 308px;
+    width: 60px;
+    height: 65px;
+}
+=======
+>>>>>>> Stashed changes
