@@ -1,6 +1,8 @@
 .location-cards {
   display: flex;
   background-color: var(--additional);
+  gap: 40px;
+  display: block;
 }
 
 .location-title {
@@ -63,4 +65,7 @@ letter-spacing: 0.64px;
 
 .location {
   background-color: var(--main-bg);
+}
+.location-card {
+    padding-left: 40px;
 }
