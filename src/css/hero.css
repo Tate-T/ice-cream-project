@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-position: center bottom;
     font-family: Montserrat;
+    padding-top: 31px;
 }
 
 
@@ -18,7 +19,7 @@
     max-width: 376px;
     text-transform: uppercase;
     margin-bottom: 28px;
-    margin-top: 45px;
+    margin-top: 14px;
     margin-right: 269px;
 }
 
@@ -130,8 +131,7 @@
     font-weight: 400;
     line-height: 1.4;  
     max-width: 203px;
-    margin-left: 16px;
-    padding-bottom: 24px;
+    margin-bottom: 24px;
     margin-top: 67px;
 }
 
@@ -139,7 +139,6 @@
     display: flex;
     width: 456px;
     height: 560px;
-    margin-top: 31px;
 }
 
 .hero-sub-title{
@@ -152,17 +151,23 @@
     text-transform: uppercase;
 }
 
+
+.hero-list {
+    margin-top: 22px;
+    outline: solid #FFF;
+}
+
 .sub-title-text {
     color: var(--additional);
     font-size: 14px;
     font-weight: 400;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
     text-align: right;
+    width: 79px;
 }
 
 .hero-dish {
     display: flex;
-    align-items: center;
     outline: dashed darkmagenta;
 }
 
@@ -178,12 +183,6 @@
     margin-top: 53px;
 }
 
-.hero-dish {
-    display: flex;
-    align-items: center;
-}
-
-
 .big-ice {
     outline: dashed deeppink;
 }
@@ -191,6 +190,9 @@
 .hero-img-strelka {
     width: 40px;
     height: 16px;
-    flex-shrink: 0;
+
+}
+
+.tarelka {
     margin-left: 16px;
 }
