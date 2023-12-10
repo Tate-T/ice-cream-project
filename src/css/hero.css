@@ -153,7 +153,7 @@
 
 
 .hero-list {
-    margin-top: 22px;
+    padding-top: 22px;
     outline: solid #FFF;
 }
 
@@ -179,10 +179,6 @@
     background-position: center bottom;
 }
 
-.hero-list:nth-child(1) {
-    margin-top: 53px;
-}
-
 .big-ice {
     outline: dashed deeppink;
 }
@@ -193,6 +189,6 @@
 
 }
 
-.tarelka {
+.dish {
     margin-left: 16px;
 }
