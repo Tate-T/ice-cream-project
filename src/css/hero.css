@@ -151,11 +151,11 @@
     text-transform: uppercase;
 }
 
+
 .hero-list {
     margin-top: 22px;
     outline: solid #FFF;
 }
-
 
 .sub-title-text {
     color: var(--additional);
