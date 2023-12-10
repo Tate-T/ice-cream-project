@@ -1,29 +1,45 @@
 .header-section {
-    width: 1168px;
-    height: 65px;
-    background-color: #84A178;
+    background-color: var(--main-bg);
 }
 
 .header-button {
     background-color:
-     #F8D24E;
+     var(--accent);
     border: none;
     color: #000;
 text-align: center;
-font-family: Montserrat;
 font-size: 14px;
-font-style: normal;
 font-weight: 600;
-line-height: normal;
-
-}
+padding: 12px 36px;
+border-radius: 10px;
+height: 42px;
+display: flex;
+gap: 4px;
+  }
 
 .header-roster {
     color: #FCFCFC;
-    font-family: Montserrat;
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
+.header-roster:hover {
+    color: #F8D24E;
+
+}
+
+.header-list {
+    display: flex;
+    gap: 27px;
+    margin-right: 205px;
+}
+
+.header-container {
+    display: flex;
+}
+
+.header-logo {
+    margin-right: 308px;
+    width: 60px;
+    height: 65px;
+}
