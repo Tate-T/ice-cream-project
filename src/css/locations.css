@@ -113,6 +113,15 @@
     display: flex;
     align-items: center;
 }
+.location-btn:hover {
+ background-color: #0A8817;
+ border-color: #0A8817;
+}
+.location-btn:focus {
+    color: #FFFFFF;
+    background-color: #0A8817;
+    border-color: #0A8817;
+}
 .location-button:nth-child(2) .location-btn {
  background-color: inherit;
 }
@@ -126,4 +135,7 @@
 }
 .location-icon {
     margin-left: 4px;
+}
+.location-icon:focus {
+    background-color: #FFFFFF;
 }
