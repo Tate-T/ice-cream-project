@@ -43,7 +43,7 @@
   background-color: #d9d9d9;
   cursor: pointer;
   border-radius: 12px;
-  transition: all 0.9 ease;
+  transition: all 0.3s ease;
 }
 
 .reviews-bar:hover {
@@ -90,7 +90,7 @@ input[type='radio'] {
 .reviews-item {
   position: relative;
   width: 33.3333333%;
-  transition: all 0.6 ease;
+  transition: all 0.7s ease;
 }
 
 #r1:checked ~ .s1 {
