@@ -1,22 +1,58 @@
 <section class="reviews">
   <div class="container reviews-container">
     <h2 hidden>Reviews</h2>
-    <img
-      src="../img/reviews-img.webp"
-      alt="many ice cream"
-      class="reviews-img"
-    />
-    <img src="../img/person-1.webp" alt="person 1" class="reviews-icon" />
-    <p class="reviews-desc">
-      I love visiting your cafe. You prepare the most delicious ice cream in Los
-      Angeles! In addition, you have beautiful serving, cozy atmosphere and
-      polite staff.
-    </p>
-    <p class="reviews-info">Emily, Los Angeles</p>
-    <ul class="reviews-dots">
-      <li class="reviews-dot"></li>
-      <li class="reviews-dot"></li>
-      <li class="reviews-dot"></li>
-    </ul>
+    <div class="reviews-slider">
+      <div class="reviews-slides">
+        <input type="radio" name="r" id="r1" checked />
+        <input type="radio" name="r" id="r2" />
+        <input type="radio" name="r" id="r3" />
+        <div class="reviews-item s1">
+          <img
+            src="./img/reviews-img-1.webp"
+            alt="many ice cream"
+            class="reviews-img"
+          />
+          <img src="./img/person-1.webp" alt="person 1" class="reviews-icon" />
+          <p class="reviews-desc">
+            I love visiting your cafe. You prepare the most delicious ice cream
+            in Los Angeles! In addition, you have beautiful serving, cozy
+            atmosphere and polite staff.
+          </p>
+          <p class="reviews-info">Emily, Los Angeles</p>
+        </div>
+        <div class="reviews-item">
+          <img
+            src="./img/reviews-img-2.webp"
+            alt="many ice cream"
+            class="reviews-img"
+          />
+          <img src="./img/person-2.webp" alt="person 1" class="reviews-icon" />
+          <p class="reviews-desc">
+            Every day we come to you with friends after classes in college. We
+            love your ice cream and casual atmosphere!
+          </p>
+          <p class="reviews-info">Bryan, New-York</p>
+        </div>
+        <div class="reviews-item">
+          <img
+            src="./img/reviews-img-3.webp"
+            alt="many ice cream"
+            class="reviews-img"
+          />
+          <img src="./img/person-3.webp" alt="person 1" class="reviews-icon" />
+          <p class="reviews-desc">
+            Ice cream is my passion! I love your chocolate hazelnut ice cream!
+            And I really like the excellent service - always served politely and
+            quickly!
+          </p>
+          <p class="reviews-info">Diana, Chicago</p>
+        </div>
+      </div>
+      <div class="reviews-navs">
+        <label class="reviews-bar" for="r1" for="r11"></label>
+        <label class="reviews-bar" for="r2" for="r22"></label>
+        <label class="reviews-bar" for="r3" for="r33"></label>
+      </div>
+    </div>
   </div>
 </section>
