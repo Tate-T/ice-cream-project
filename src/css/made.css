@@ -31,6 +31,10 @@
   margin-bottom: 60px;
 }
 
+.made-img {
+  box-shadow: 0 -16px 0 0 var(--accent);
+}
+
 .made-paragraph {
   color: var(--additional);
   font-size: 16px;
@@ -47,7 +51,7 @@
 
 .made-btn {
   margin-top: 54px;
-  color: #000;
+  color: var(--text);
   font-size: 14px;
   font-weight: 600;
   line-height: 1.28;
@@ -59,6 +63,19 @@
   justify-content: center;
   align-items: center;
   gap: 4px;
+}
+
+.made-btn:hover {
+  background-color: #0a8817;
+}
+
+.made-btn:focus {
+  color: var(--additional);
+  background-color: #0a8817;
+}
+
+.made-svg:focus {
+  color: var(--additional);
 }
 
 .made-list {
