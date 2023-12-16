@@ -16,8 +16,8 @@
       rel="stylesheet"
     />
     
-    <script type="module" crossorigin src="/ice-cream-project/assets/index-c9dff7f6.js"></script>
-    <link rel="stylesheet" href="/ice-cream-project/assets/index-98bafbc9.css">
+    <script type="module" crossorigin src="/ice-cream-project/assets/index-e5efe22a.js"></script>
+    <link rel="stylesheet" href="/ice-cream-project/assets/index-cc2320b7.css">
   </head>
   <body>
     <!-- Loads the specified .html file -->
@@ -189,6 +189,7 @@
         <button class="made-btn">
           Read more
           <svg
+            class="made-svg"
             xmlns="http://www.w3.org/2000/svg"
             width="12"
             height="12"
@@ -485,32 +486,39 @@
         </ul>
     </div>
 </section>
-    <footer class="footer-section">
-  <p class="footer-text">homemade ice cream made</p>
-  <p class="footer-sentence">with passion</p>
-  <ul class="footer-list">
-    <li class="footer-roster">
-      <a href="https://github.com/Tate-T/ice-cream-project" class="footer-icon"
-        ><img src="data:image/webp;base64,UklGRvADAABXRUJQVlA4WAoAAAAQAAAAIQAAIQAAQUxQSJsAAAABcBDbTh09CUiIlDhpHYADcNJ1kDpAAlIiIfsF3swKiIgJwGzK1/AIH3YItmqPadM16bFsspA9NnqZqrG5TtTYXn/kIJYv4gyXDwtqB6BBVsBYHRL0dPKK8a7BG87z+IvO88EbD95deEfiCTrrBpSlADrHAECc4fKBwij43vY1/G67GmaL7/CCebG1LlhWm+uKrXLa8AgfV06YBQBWUDggLgMAAFATAJ0BKiIAIgAAAAAlsALszaHA3t34AfsB/lefP107a/sN/b8xs4l/u/5Qf032AOcK/sf5gcAD9QP93/jPUA6wD+m/0nrOf1A9gD9h/Rp/4v+I+CH9lv+d/t/ZM/7FI8/GPiCMUPo+cA/qP47Ti7wM+eC/tfLX83+wL+n/+M4DM6tO5LtaCYfWps3K2UrXvm25vk8Au+/iKBzGzBApqadC67AA/v//RevsI0+ZM6v+xc//P4S42vCjD/KszwQ20X+/4S31ZqSS4H3O4/qPb9tVMnfnCLQqq93f/0M5mzmgcfs115pMB/eYOG//+s7s7L4+nijS8Ny3FNirhjzNGD0+kt0/jiewhrYFHgvyVZGu//zkcQyXaGX79eriknBMW9929HIFbTh7wtil7qD8IzI8R58Y0FmTYMsZZv4KiZOUTAyHaa19ZeQXewwbDVFTxGT/aYIWWXNk3XDO78tu0u11Pr76fdMYaEkcMXaf2qriFSq9TEELgrAwE3CuAg3dCSNNFOL1Ic2m85hitx4ZW3yZHZYCe7HQkT/9TOhT2sn9p4IC9T09zNYlQyWWARJSZ///2fCzHoclOoznKEqbzyFZUp/k3eLcTKGKckH/vA0NmU9M65szcgx8jrwfhwIUzi+P+GkWQ/3glABqNPJsuxn/f+jSt8/YRurffKDxPRCbdSFFo7X+d339jo8/HqVsCKsWzF0Ld99QmXS6tJsmkONA5nI6jGInANP9tbWaBxvyqJ0IfQNeAXScuIdDPnphCszGdsCCiZ5rm4+IjslTa5JaJYJfSWj38Fry8l7zIIURx1rdmXQf4qy1Ko1Ki64xT5quE7h0ybs3K+S64ziVOashEx4MV37F1uw2bEgIKNALf59mAnK1F2IxyLShZum24blppXRdTe1+0hgSp0GZCqGptzSiUxgjKB3rQXE4FA8EOMO7j8ElzgWILEXPDyZ6i0LzC9Ovqx000NThqaH53xutfUCwv53xutfGqSoomGOwx6a2an1/0lf///bG/GedUQPQlXO5wjXWMsg5fGIQ7z5vCnqMxc9xVlDjKAVfo5hC84Fma7D///zc2AAAAAA=" alt="github link"
-      /></a>
-    </li>
-    <li class="footer-roster">
-      <a href="https://web.telegram.org/a/" class="footer-icon"
-        ><img src="data:image/webp;base64,UklGRngDAABXRUJQVlA4WAoAAAAQAAAAIQAAIQAAQUxQSJsAAAABcBDbTh09CUiIlDhpHYADcNJ1kDpAAlIiIfsF3swKiIgJwGzK1/AIH3YItmqPadM16bFsspA9NnqZqrG5TtTYXn/kIJYv4gyXDwtqB6BBVsBYHRL0dPKK8a7BG87z+IvO88EbD95deEfiCTrrBpSlADrHAECc4fKBwij43vY1/G67GmaL7/CCebG1LlhWm+uKrXLa8AgfV06YBQBWUDggtgIAAJASAJ0BKiIAIgAAAAAlsALszULA3vP4AfsB/gOhr0a7Ifs7/dN0QrX+9fczvB/88/J3gAfoj/bv6r7Ev8A9gHoAf5L/AdYB6AH6q+jl/ov9f8Fn7RftV7NzxTsAH8zxhj8mdRdyJH+x+0D2rfMv949wb+N/yf/M/mXxjv7AHZqu4q+NiVbzZ8QHtmdv+YKElC0OTnu2r8GPLKTsUoAA/v//ReTojGT24kGv5zkt/7ILKq5f+8X7ke6edMreKQMCOEXVyr3//qT/kyVy3/59TGFBnxLQdWB8qx1nirVj0HjxdCMj//odAgjYhoqm9Slo5nk7+XdDXFKG5/Kf11s9utI7oKW2/zcY3FBAK0wgP/2I7/lJWUN3//DpeL0uOqZrfz4/tH26vmO6TDLPxpJn/Pd1uPGvD/j6En/lX/7LSoFoz4tD5U1cubufSHiWhYZOWhUnmgG1ts7pg6bhBp//ju65AbF1NzE57pQN+x8c3aVemrqL/Bv//7PhZj0HYHjh5WobGnXTHltHgwzvh2WmnSSqrkUSSF7iLSwMv/heQZftwXToYdGnJ/iYJsKCq5KZ80PMlUsFz8FMgIjJEr4rbMzu/994CzI+V5wVmlIf//5Mm2t/+ZNDyVcgPkIeWvs872L9lb8E89wApwW6kCzouaOdJI1RmfQl4wrDgCzZ2PAvIVv4R3fdXOgVVpoeDgn8nYMzCDYa/5IAHQEag6i2AA5CWty2jwc74j1332Wpl7ytjH67S716mVTUdhyvhLFoPa1WQQWQDPF+UfTBdNUmLWra6buyLUS+8pF5TVn0IbYmh+CT0Ai+Igx3PfnF9AInAW6wurg5PGduEU1xDmO/9sP///7Y34z1fpk+lQtG05XY1RcGJFhxu5wEFUtj0iKFBG4rycKkBqFL3/NpA////zc2AAAAAAA=" alt="telegram link"
-      /></a>
-    </li>
-    <li class="footer-roster">
-      <a href="https://uk-ua.facebook.com/" class="footer-icon"
-        ><img src="data:image/webp;base64,UklGRj4CAABXRUJQVlA4WAoAAAAQAAAAIQAAIQAAQUxQSJsAAAABcBDbTh09CUiIlDhpHYADcNJ1kDpAAlIiIfsF3swKiIgJwGzK1/AIH3YItmqPadM16bFsspA9NnqZqrG5TtTYXn/kIJYv4gyXDwtqB6BBVsBYHRL0dPKK8a7BG87z+IvO88EbD95deEfiCTrrBpSlADrHAECc4fKBwij43vY1/G67GmaL7/CCebG1LlhWm+uKrXLa8AgfV06YBQBWUDggfAEAAFAKAJ0BKiIAIgA+RRyLQ6KhoRccBZgoBES2AE6ZoT/D0D8QOdM2SxZ5e7+ZxAHmA8nTpgOoA9AD9VfSu/ar4TvIAJnwgkfN9HN8leQr+I5eLtE4n0Wmla5/wAAA/v0qNsnITMSBBgM/h7Lnf/yKr7KAYgWPbXf1V/VcdgqsOAWs9ncDNVwFsgoQNtA+zhrYc7z4F4Nv7g23As1iNksKURy7iP2Cjq8grvhI9elElq8gggWsP2e19gjA/g5BGb4zvIo5S8VS7fozl4sz8MBP//86vP/812zR7NDk3v119tZs7F3LEXKmXh6gzVDH48th33BjH4ibXMEAD7S9vC9yPRdKsV7pK2EPGsfje4j6COek1FwhJpWl+v7e8eYY8nlq4bT1b/ttT6J1eVDrzEUu8JISWiqP8+/uHeXcKcDt7+4d5dwJVkKjs3/43ZZb/wBH//5yyv87AvnRlemPYzc2OgmF7dVg1BHGluqvEsW5Tcw4p49Z//79esYniGAA" alt="facebook link"
-      /></a>
-    </li>
-  </ul>
-  <a href="#" class="footer-info"
-    >Feel free to contact<span class="footer-number"
-      >+61 (0) 383 766 284</span
-    ></a
-  >
-  <p class="footer-data">© 2022 - IceCream. All Rights Reserved.</p>
+    
+<footer class="footer-section">
+    <div class="container">
+        <div class="footer-container">
+            <div class="footer-text-container">
+                <h3 class="footer-subtitle">homemade ice cream made </h3>
+                <h2 class="footer-title ">with passion</h2>
+            </div>
+            <div class="footer-address-container">
+                <div class="footer-icons-container">
+                    <ul class="footer-list">
+                      <li class="footer-roster">
+                          <a href="https://github.com/Tate-T/ice-cream-project" class="footer-icon" >
+                            <img src="data:image/webp;base64,UklGRvADAABXRUJQVlA4WAoAAAAQAAAAIQAAIQAAQUxQSJsAAAABcBDbTh09CUiIlDhpHYADcNJ1kDpAAlIiIfsF3swKiIgJwGzK1/AIH3YItmqPadM16bFsspA9NnqZqrG5TtTYXn/kIJYv4gyXDwtqB6BBVsBYHRL0dPKK8a7BG87z+IvO88EbD95deEfiCTrrBpSlADrHAECc4fKBwij43vY1/G67GmaL7/CCebG1LlhWm+uKrXLa8AgfV06YBQBWUDggLgMAAFATAJ0BKiIAIgAAAAAlsALszaHA3t34AfsB/lefP107a/sN/b8xs4l/u/5Qf032AOcK/sf5gcAD9QP93/jPUA6wD+m/0nrOf1A9gD9h/Rp/4v+I+CH9lv+d/t/ZM/7FI8/GPiCMUPo+cA/qP47Ti7wM+eC/tfLX83+wL+n/+M4DM6tO5LtaCYfWps3K2UrXvm25vk8Au+/iKBzGzBApqadC67AA/v//RevsI0+ZM6v+xc//P4S42vCjD/KszwQ20X+/4S31ZqSS4H3O4/qPb9tVMnfnCLQqq93f/0M5mzmgcfs115pMB/eYOG//+s7s7L4+nijS8Ny3FNirhjzNGD0+kt0/jiewhrYFHgvyVZGu//zkcQyXaGX79eriknBMW9929HIFbTh7wtil7qD8IzI8R58Y0FmTYMsZZv4KiZOUTAyHaa19ZeQXewwbDVFTxGT/aYIWWXNk3XDO78tu0u11Pr76fdMYaEkcMXaf2qriFSq9TEELgrAwE3CuAg3dCSNNFOL1Ic2m85hitx4ZW3yZHZYCe7HQkT/9TOhT2sn9p4IC9T09zNYlQyWWARJSZ///2fCzHoclOoznKEqbzyFZUp/k3eLcTKGKckH/vA0NmU9M65szcgx8jrwfhwIUzi+P+GkWQ/3glABqNPJsuxn/f+jSt8/YRurffKDxPRCbdSFFo7X+d339jo8/HqVsCKsWzF0Ld99QmXS6tJsmkONA5nI6jGInANP9tbWaBxvyqJ0IfQNeAXScuIdDPnphCszGdsCCiZ5rm4+IjslTa5JaJYJfSWj38Fry8l7zIIURx1rdmXQf4qy1Ko1Ki64xT5quE7h0ybs3K+S64ziVOashEx4MV37F1uw2bEgIKNALf59mAnK1F2IxyLShZum24blppXRdTe1+0hgSp0GZCqGptzSiUxgjKB3rQXE4FA8EOMO7j8ElzgWILEXPDyZ6i0LzC9Ovqx000NThqaH53xutfUCwv53xutfGqSoomGOwx6a2an1/0lf///bG/GedUQPQlXO5wjXWMsg5fGIQ7z5vCnqMxc9xVlDjKAVfo5hC84Fma7D///zc2AAAAAA=" alt="github link">
+                          </a>
+                      </li>
+                      <li class="footer-roster">
+                          <a href="https://web.telegram.org/a/" class="footer-icon">
+                            <img src="data:image/webp;base64,UklGRngDAABXRUJQVlA4WAoAAAAQAAAAIQAAIQAAQUxQSJsAAAABcBDbTh09CUiIlDhpHYADcNJ1kDpAAlIiIfsF3swKiIgJwGzK1/AIH3YItmqPadM16bFsspA9NnqZqrG5TtTYXn/kIJYv4gyXDwtqB6BBVsBYHRL0dPKK8a7BG87z+IvO88EbD95deEfiCTrrBpSlADrHAECc4fKBwij43vY1/G67GmaL7/CCebG1LlhWm+uKrXLa8AgfV06YBQBWUDggtgIAAJASAJ0BKiIAIgAAAAAlsALszULA3vP4AfsB/gOhr0a7Ifs7/dN0QrX+9fczvB/88/J3gAfoj/bv6r7Ev8A9gHoAf5L/AdYB6AH6q+jl/ov9f8Fn7RftV7NzxTsAH8zxhj8mdRdyJH+x+0D2rfMv949wb+N/yf/M/mXxjv7AHZqu4q+NiVbzZ8QHtmdv+YKElC0OTnu2r8GPLKTsUoAA/v//ReTojGT24kGv5zkt/7ILKq5f+8X7ke6edMreKQMCOEXVyr3//qT/kyVy3/59TGFBnxLQdWB8qx1nirVj0HjxdCMj//odAgjYhoqm9Slo5nk7+XdDXFKG5/Kf11s9utI7oKW2/zcY3FBAK0wgP/2I7/lJWUN3//DpeL0uOqZrfz4/tH26vmO6TDLPxpJn/Pd1uPGvD/j6En/lX/7LSoFoz4tD5U1cubufSHiWhYZOWhUnmgG1ts7pg6bhBp//ju65AbF1NzE57pQN+x8c3aVemrqL/Bv//7PhZj0HYHjh5WobGnXTHltHgwzvh2WmnSSqrkUSSF7iLSwMv/heQZftwXToYdGnJ/iYJsKCq5KZ80PMlUsFz8FMgIjJEr4rbMzu/994CzI+V5wVmlIf//5Mm2t/+ZNDyVcgPkIeWvs872L9lb8E89wApwW6kCzouaOdJI1RmfQl4wrDgCzZ2PAvIVv4R3fdXOgVVpoeDgn8nYMzCDYa/5IAHQEag6i2AA5CWty2jwc74j1332Wpl7ytjH67S716mVTUdhyvhLFoPa1WQQWQDPF+UfTBdNUmLWra6buyLUS+8pF5TVn0IbYmh+CT0Ai+Igx3PfnF9AInAW6wurg5PGduEU1xDmO/9sP///7Y34z1fpk+lQtG05XY1RcGJFhxu5wEFUtj0iKFBG4rycKkBqFL3/NpA////zc2AAAAAAA=" alt="telegram link">
+                          </a>
+                      </li>
+                      <li class="footer-roster">
+                        <a href="https://uk-ua.facebook.com/" class="footer-icon">
+                          <img src="data:image/webp;base64,UklGRj4CAABXRUJQVlA4WAoAAAAQAAAAIQAAIQAAQUxQSJsAAAABcBDbTh09CUiIlDhpHYADcNJ1kDpAAlIiIfsF3swKiIgJwGzK1/AIH3YItmqPadM16bFsspA9NnqZqrG5TtTYXn/kIJYv4gyXDwtqB6BBVsBYHRL0dPKK8a7BG87z+IvO88EbD95deEfiCTrrBpSlADrHAECc4fKBwij43vY1/G67GmaL7/CCebG1LlhWm+uKrXLa8AgfV06YBQBWUDggfAEAAFAKAJ0BKiIAIgA+RRyLQ6KhoRccBZgoBES2AE6ZoT/D0D8QOdM2SxZ5e7+ZxAHmA8nTpgOoA9AD9VfSu/ar4TvIAJnwgkfN9HN8leQr+I5eLtE4n0Wmla5/wAAA/v0qNsnITMSBBgM/h7Lnf/yKr7KAYgWPbXf1V/VcdgqsOAWs9ncDNVwFsgoQNtA+zhrYc7z4F4Nv7g23As1iNksKURy7iP2Cjq8grvhI9elElq8gggWsP2e19gjA/g5BGb4zvIo5S8VS7fozl4sz8MBP//86vP/812zR7NDk3v119tZs7F3LEXKmXh6gzVDH48th33BjH4ibXMEAD7S9vC9yPRdKsV7pK2EPGsfje4j6COek1FwhJpWl+v7e8eYY8nlq4bT1b/ttT6J1eVDrzEUu8JISWiqP8+/uHeXcKcDt7+4d5dwJVkKjs3/43ZZb/wBH//5yyv87AvnRlemPYzc2OgmF7dVg1BHGluqvEsW5Tcw4p49Z//79esYniGAA" alt="facebook link">
+                        </a>
+                      </li>
+                    </ul>
+                </div>
+                <a href="#" class="footer-info">Feel free to contact<span class="footer-number">+61 (0) 383 766 284</span></a>
+            </div>
+        </div>
+        <p class="footer-data">© 2022 - IceCream. All Rights Reserved. </p>
+    </div>
 </footer>
 
     
