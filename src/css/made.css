@@ -32,7 +32,8 @@
 }
 
 .made-img {
-  box-shadow: 0 -16px 0 0 var(--accent);
+  box-shadow: 0 -39px 0 0 var(--accent);
+  border-radius: 50%;
 }
 
 .made-paragraph {
