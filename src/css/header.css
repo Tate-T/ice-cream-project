@@ -1,63 +1,58 @@
 .header-section {
-    background-color: var(--main-bg);
-
+  background-color: var(--main-bg);
 }
 
 .header-button {
-    background-color:
-     var(--accent);
-    border: none;
-    color: #000;
-text-align: center;
-font-size: 14px;
-font-weight: 600;
-padding: 12px 36px;
-border-radius: 10px;
-display: flex;
-gap: 4px;
-  }
+  background-color: var(--accent);
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 36px;
+  border-radius: 10px;
+  display: flex;
+  gap: 4px;
+}
 
-  .header-button:hover {
-    background: #0A8817;
-    color: var(--text);
-  }
+.header-button:hover {
+  background: #0a8817;
+  color: var(--text);
+}
 
-  .header-button:focus {
-    background: #0A8817;
-    color: var(--additional);
-  }
+.header-button:focus {
+  background: #0a8817;
+  color: var(--additional);
+}
 
-  .header-button:disabled {
-    background: var(--time-text);
-    color: var(--text) ;
-  }
-
+.header-button:disabled {
+  background: var(--time-text);
+  color: var(--text);
+}
 
 .header-roster {
-    color: #FCFCFC;
-    font-size: 16px;
-    font-weight: 700;
+  color: #fcfcfc;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .header-roster:hover {
-    color: #F8D24E;
-
+  color: #f8d24e;
 }
 
 .header-list {
-    display: flex;
-    gap: 27px;
-    margin-right: 205px;
+  display: flex;
+  gap: 27px;
+  margin-right: 205px;
 }
 
 .header-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header-logo {
-    margin-right: 308px;
-    width: 60px;
-    height: 65px;
+  margin-right: 308px;
+  width: 60px;
+  height: 65px;
 }
-
