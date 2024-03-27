@@ -94,6 +94,10 @@
   align-items: center;
 }
 
+.made-icon:hover svg{
+  fill: yellow;
+}
+
 .made-subheading {
   color: var(--additional);
   text-align: center;
@@ -112,4 +116,9 @@
   line-height: 1.76;
   letter-spacing: 0.32px;
   max-width: 368px;
+}
+
+.made-svg{
+  width: 36px;
+  height: 36px;
 }
